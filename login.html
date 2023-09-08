@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>In A Box-Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style type="text/css">
+    *{
+      font-family: "Poppins", sans-serif;
+    }
+    .card{
+      height: 550px;
+      background-color: #ffe6ff;
+    }
+    p{
+      line-height: 2;
+    }
+    #email{
+      border-radius: 5px;
+      width: 80%;
+      height: 40px;
+    }
+    #email:hover{
+      border-color: rgb(208, 55, 55);
+    }
+    #password{
+      border-radius: 5px;
+      width: 80%;
+      height: 40px;
+    }
+    #password:hover{
+      border-color: rgb(208, 55, 55);
+    }
+    #button{
+      width: 80%;
+      height: 40px;
+      border-radius: 5px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- navbar start -->
+  <nav class="navbar navbar-expand-lg" style="background-color: #FCDEE0;">
+    <div class="container-fluid">
+      <a class="navbar-brand ps-4 fw-bold "href="index.html" style="color:rgb(208, 55, 55); font-size: 35px;">In A Box</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle px-3 fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services & Products</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="recipes.html">All Recipes</a></li>
+              <li><a class="dropdown-item" href="bake-at-home sets.html">Bake-at-home Sets</a></li>
+              <li><a class="dropdown-item" href="ingredients.html">Ingredients</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="meal-planner.html">Meal Planner</a></li>
+              <li><a class="dropdown-item" href="nutritional-apps.html">Nutritional Information Apps</a></li>
+              <li><a class="dropdown-item" href="weekly-recipes.html">Selection of weekly recipes</a></li>
+              <li><a class="dropdown-item" href="gift-boxes.html">Gift Boxes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link fw-bold" href="packages.html">Packages</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link fw-bold" href="login.html">Login</a>
+          </li>
+          <li class="nav-item pe-4">
+            <a class="nav-link fw-bold" href="signup.html">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+
+
+
+  <!-- login form start -->
+  <div class="container">
+    <h2 class="text-center fw-bold mt-5" style="color:rgb(208, 55, 55);">Welcome Back Customers</h2>
+    <div class="row justify-content-center mt-5">
+      <div class="col-md-5 text-center">
+        <div class="card">
+          <h2 class="card-title mt-4 mb-3">Login</h2>
+          <div class="card-body">
+            <input type="email" id="email" name="Eamil" placeholder="Enter email"><br>
+            <br>
+            <input type="password" id="password" name="pass" placeholder="Enter password"><br>
+
+            <a href="#" class="btn btn-danger btn-lg mt-4" >Login</a><br>
+            <h6 class="text-center mt-3">or</h6>
+            <a href="https://www.facebook.com/" class="btn btn-outline-danger lg mt-3" id="button">Login with Facebook</a><br>
+            <a href="https://www.google.com/" class="btn btn-outline-danger lg mt-4" id="button">Login with Google</a>
+            <p class="card-text mt-4">New to In A Box? 
+              <a href="signup.html" class="text-danger"> Signup</a>
+            </p>
+          </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <!-- login form end -->
+
+
+
+
+
+
+
+
+  <!-- footer start -->
+  <br>
+  <br>
+  <br>
+  <div class="containe-fluid text-white p-3" style="font-family: 'Poppins', sans-serif; background-color: rgb(208, 55, 55);">
+
+    <div class="row justify-content-around text-center text-md-start">
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li class="fw-bold my-2 text-decoration-underline">In A Box</li>
+          <li><a href="index.html" class="text-decoration-none text-white">Home</a></li>
+          <li><a href="recipes.html" class="text-decoration-none text-white">All Recipes</a></li>
+          <li><a href="bake-at-home sets.html" class="text-decoration-none text-white">Bake-at-home Sets</a></li>
+          <li><a href="ingredients.html" class="text-decoration-none text-white">Ingredients</a></li>
+          <li><a href="packages.html" class="text-decoration-none text-white">Packages</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li class="fw-bold my-2 text-decoration-underline">Others</li>
+          <li><a href="meal-planner.html" class="text-decoration-none text-white">Meal Planner</a></li>
+          <li><a href="nutritional-apps.html" class="text-decoration-none text-white">Nutrietional Information Apps</a></li>
+          <li><a href="weekly-recipes.html" class="text-decoration-none text-white">Selection Of Weekly Recipes</a></li>
+          <li><a href="gift-boxes.html" class="text-decoration-none text-white">Gift Boxes</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <ul class="list-unstyled">
+          <li class="fw-bold my-2 text-decoration-underline">Help Center</li>
+          <li><a href="contact-us.html" class="text-decoration-none text-white">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <li class="fw-bold my-2 list-unstyled text-decoration-underline">Follow Us</li>
+          <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
+            <li class="me-2"><a href="#" class="text-white"><i class='bx bxl-facebook-circle' style="font-size: 20px;" ></i></a></li>
+            <li><a href="#" class="text-white"><i class='bx bxl-instagram-alt' style="font-size: 20px;" ></i></a></li>
+          </ul>
+          <br>
+
+          <li class="fw-bold my-2 list-unstyled text-decoration-underline">Download Our App From</li>
+          <ul class="list-unstyled justify-content-center justify-content-md-start">
+            <li><a href="https://play.google.com/store/games?hl=en&gl=US" class="btn btn-block btn-outline-light"><i class='bx bxl-play-store' style="font-size: 20px;" ></i>Play Store</a></li>
+            <li><a href="https://www.apple.com/app-store/" class="btn btn-block btn-outline-light mt-2"><i class='bx bxl-apple' style="font-size: 20px;" ></i>Apple Store</a></li>
+          </ul>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-12 text-center pt-2">
+        <p>&copy; 2023 Copyright <a href="#" class="text-white">In A Box Team</a></p>
+      </div>
+    </div>
+
+  </div>
+  <!-- footer end -->
+
+</body>
+</html>
